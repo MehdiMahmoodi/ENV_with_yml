@@ -44,5 +44,8 @@ This repo contains all you need to create the yml file and convert it to a conda
 -       just run the Anaconda Prompt and type:
                 -       conda activate sample_env.yml
 -       For deactivating, just simply type:
-        -              conda deactivate sample_env.yml    
+        -              conda deactivate sample_env.yml 
+## Removing a environment:
+-       conda remove --name myenv --all
+-       conda info --envs
 # Have Fun!!
