@@ -8,7 +8,7 @@ You need to have any python text editors. I am suggesting the sublime. Also, you
 This repo contains all you need to create the yml file and convert it to a conda env file.  
 
 ## Creating the .yml file:
-- Download the [sample_env.yml](https://github.com/1)
+- Download the [sample_env_1.yml](https://github.com/MehdiMahmoodi/ENV_with_yml/blob/main/sample_env_1.yml)
 - Use sublime to open the downloaded sample.yml 
 - Add the required libraries to the "dependencies":
         -   Removing any of the packages in the sample_env.yml file is not recommended.
@@ -33,6 +33,7 @@ This repo contains all you need to create the yml file and convert it to a conda
         -   get back to the sublime
         -   open the .yml file again
         -   cut the packages mentioned below the “ResolvePackageNotFound:" from the "dependencies:" and past it under "- pip:"
+        -   As an example compare the [sample_env_1.yml](https://github.com/MehdiMahmoodi/ENV_with_yml/blob/main/sample_env_1.yml) with [sample_env.yml](https://github.com/MehdiMahmoodi/ENV_with_yml/blob/main/sample_env.yml)
     -   close the Anaconda Prompt and reopen it again
     -   Navigate to the address where you saved the .yml file.
         -   cd address
