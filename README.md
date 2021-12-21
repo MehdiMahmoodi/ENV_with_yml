@@ -20,16 +20,15 @@ This repo contains all you need to create the yml file and convert it to a conda
     -   
 
 ## Creating the conda environment by use of .yml 
-
-    -   Open the Anaconda Prompt
-    -   Navigate to the address where you saved the .yml file.
+-   Open the Anaconda Prompt
+-   Navigate to the address where you saved the .yml file.
         -   cd address
-    -   try to create a conda environment by writing the following command:
-        conda env create -f chooseaname.yml
-    -   use tap for auto complete
+-   try to create a conda environment by writing the following command:
+                -        conda env create -f chooseaname.yml
+-   use tap for auto complete
 
 ## Troubleshooting:
-    -   Most probably you would get an error like: "ResolvePackageNotFound:". It is mostly happening whenever you want to install the most updated version. In this case, you need to:
+-   Most probably you would get an error like: "ResolvePackageNotFound:". It is mostly happening whenever you want to install the most updated version. In this case, you need to:
         -   get back to the sublime
         -   open the .yml file again
         -   cut the packages mentioned below the “ResolvePackageNotFound:" from the "dependencies:" and past it under "- pip:"
