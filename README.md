@@ -24,7 +24,7 @@ This repo contains all you need to create the yml file and convert it to a conda
 -   Navigate to the address where you saved the .yml file.
         -   cd address
 -   try to create a conda environment by writing the following command:
--               conda env create -f sample_env_1.yml
+-       conda env create -f sample_env_1.yml
 -   use tap for auto complete
 
 ## Troubleshooting:
