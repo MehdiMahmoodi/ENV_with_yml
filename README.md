@@ -17,9 +17,7 @@ This repo contains all you need to create the yml file and convert it to a conda
   
 - Save your .yml file in the desirede location:
     -   Do not forget to update the name: in the .yml file
-    -   Save the file like: chooseaname.yml (do not forget to save it as    .yml    file)  
-
-    -   
+    -   Save the file like: chooseaname.yml (do not forget to save it as    .yml    file) 
 
 ## Creating the conda environment by use of .yml 
 -   Open the Anaconda Prompt
