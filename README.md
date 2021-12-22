@@ -36,16 +36,16 @@ This repo contains all you need to create the yml file and convert it to a conda
         -   As an example compare the [sample_env_1.yml](https://github.com/MehdiMahmoodi/ENV_with_yml/blob/main/sample_env_1.yml) with [sample_env.yml](https://github.com/MehdiMahmoodi/ENV_with_yml/blob/main/sample_env.yml)
     -   close the Anaconda Prompt and reopen it again
     -   Navigate to the address where you saved the .yml file.
-        -   cd address
+-       cd address
     -   try to create a conda environment by writing the following command:
-        conda env create -f sample_en.yml
+-       conda env create -f sample_en.yml
     -   use tap for auto complete.
 ## Activating/Deactivating the environment:
 Now, you can be at any location, your command prompt to activate or deactivate.You no longer need to CD into the location where the .yml created.
 just run the Anaconda Prompt and type:
-                -       conda activate sample_env.yml
+-       conda activate sample_env.yml
 For deactivating, just simply type:
-        -              conda deactivate sample_env.yml 
+-        conda deactivate sample_env.yml 
 ## Removing a environment:
 -       conda remove --name myenv --all
 -       conda info --envs
