@@ -9,10 +9,12 @@ This repo contains all you need to create the yml file and convert it to a conda
 
 ## Creating the .yml file:
 - Download the [sample_env_1.yml](https://github.com/MehdiMahmoodi/ENV_with_yml/blob/main/sample_env_1.yml)
-- Use sublime to open the downloaded sample.yml 
+- Use sublime to open the downloaded sample.yml        
 - Add the required libraries to the "dependencies":
         -   Removing any of the packages in the sample_env.yml file is not recommended.
         -   You can find the last version of libraries in [pypi.org](https://pypi.org/). As an example for [numpy](https://pypi.org/project/numpy/)
+        -   If you are using the sublime, you can take advantage of highlighting the desire columns(all columns if you want) then Ctrl+Shift+l . It would help you for arrangmenting the text.
+  
 - Save your .yml file in the desirede location:
         -   Do not forget to update the name: in the .yml file
         -   save the file like: chooseaname.yml (do not forget to put the .yml on the naming part)  
